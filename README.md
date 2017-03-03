@@ -24,7 +24,7 @@ $ git clone https://github.com/alezzandro/gogs-inmyopenshift-cloud.git
 
 $ cd gogs-inmyopenshift-cloud
 
-$ oc create -f gogs-mysql-template.yaml
+$ oc create -f gogs-mysql-template.yml
 
 $ oc new-app gogs-mysql
 
@@ -70,7 +70,7 @@ $ git clone https://github.com/alezzandro/gogs-inmyopenshift-cloud.git
 
 $ cd gogs-inmyopenshift-cloud
 
-$ oc create -f gogs-standalone-template.yaml
+$ oc create -f gogs-standalone-template.yml
 
 $ oc new-app gogs-standalone
 
